@@ -1,3 +1,4 @@
+# Dictionary to hold the number of days in each month
 months = {
     1:31,
     2:28,
@@ -11,9 +12,9 @@ months = {
     10:31,
     11:30,
     12:31}
-
+# Get user input for the month
 a = int(input("Enter your month:"))
-
+# Check if the month is valid
 if 1 <= a <= 12:
     if a == 2:
         leap = input("Is it a leap year?:")
