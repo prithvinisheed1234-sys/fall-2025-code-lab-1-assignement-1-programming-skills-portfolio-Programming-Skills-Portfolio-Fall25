@@ -1,0 +1,5 @@
+first_name=input("Enter your first name: ")
+second_name=input("Enter your second name: ")
+age=(input("Enter your age: "))
+hometown=input("Enter your hometown: ")
+print("My name is " + first_name + " " + second_name + "\nMy hometown is " + hometown + "\nAnd I am " + str(age) + " years old.")
